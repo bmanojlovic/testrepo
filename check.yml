@@ -1,5 +1,5 @@
 ---
-- hosts: '{{ inventory }}'
+- hosts: all
 
   tasks:
   - name: yum check
